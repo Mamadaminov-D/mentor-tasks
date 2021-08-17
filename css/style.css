@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h2 {
+    margin: 55px;
+}
+
+li {
+   list-style: none;
+   color: white;
+}
+
+li p {
+    margin-top: 15px;
+}
+
+.big-section {
+
+    background: url('https://assets.htmlacademy.ru/img/icons/bg.svg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.exersice {
+    text-align: center;
+}
+
+.first-list{
+    border: 1px solid;
+    padding: 40px;
+    margin: 25px auto;
+    background-color: #2E2C9C;
+    width: 780px;
+    display: flex;
+}
+
+.student::before {
+    content: "";
+    display: inline-block;
+    width: 183px;
+    height: 88px;
+    margin-right: 25px;
+    background-image: url('https://assets.htmlacademy.ru/img/tutors/ruler-icon.svg');
+}
+
+.mistake::before {
+    content: "";
+    display: inline-block;
+    width: 146px;
+    height: 88px;
+    margin-right: 25px;
+    background-image: url('https://assets.htmlacademy.ru/img/tutors/consulting-icon.svg');
+}
+
+.all-bad::before {
+    content: "";
+    display: inline-block;
+    width: 157px;
+    height: 88px;
+    margin-right: 25px;
+    background-image: url('https://assets.htmlacademy.ru/img/tutors/bottle-icon.svg');
+}
+
