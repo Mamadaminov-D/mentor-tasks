@@ -67,10 +67,10 @@ li p {
 
 .all-bad::before {
     content: "";
-    display: inline-block;
+    background-image: url('https://assets.htmlacademy.ru/img/tutors/bottle-icon.svg');
     width: 157px;
     height: 88px;
     margin-right: 25px;
-    background-image: url('https://assets.htmlacademy.ru/img/tutors/bottle-icon.svg');
+    display: inline-block;
 }
 
